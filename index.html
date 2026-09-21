@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diferencias documentadas entre el cerebro masculino y femenino | Investigación con fuentes</title>
+<style>
+:root{--bg:#0f1419;--card:#1a222d;--card2:#212d3d;--text:#e6edf3;--muted:#9fb0c3;--accent:#4cc2ff;--accent2:#ff7ab8;--green:#3fb950;--yellow:#d29922;--red:#f85149;--border:#303d4e}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Inter,Ubuntu,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+header{padding:48px 24px;background:linear-gradient(135deg,#13233a 0%,#1d2f4d 50%,#3a1d3f 100%);border-bottom:1px solid var(--border)}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+h1{font-size:2.1rem;line-height:1.2;margin:0 0 12px}
+.subtitle{color:var(--muted);font-size:1.05rem;max-width:800px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.badge{font-size:.8rem;padding:5px 12px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.06)}
+.badge.l1{border-color:var(--green);color:#7ee787}.badge.rec{border-color:var(--accent);color:var(--accent)}
+main{padding:32px 0 80px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;margin:20px 0}
+.card h2{margin-top:0;color:var(--accent)}
+.card h3{color:#ffd9e8;margin-bottom:6px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:.9rem;margin:12px 0}
+th,td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}
+th{background:var(--card2)}
+tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+a{color:var(--accent);word-break:break-all}
+.small{font-size:.85rem;color:var(--muted)}
+.callout{border-left:4px solid var(--accent);background:rgba(76,194,255,.08);padding:14px 16px;border-radius:0 10px 10px 0;margin:16px 0}
+.callout.warn{border-color:var(--yellow);background:rgba(210,153,34,.1)}
+.callout.myth{border-color:var(--red);background:rgba(248,81,73,.08)}
+.tier{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:6px}
+.t-L1{background:#12361f;color:#7ee787;border:1px solid #2ea043}
+.t-L2{background:#0e2a44;color:#79c0ff;border:1px solid #1f6feb}
+.conf{font-size:.75rem;color:var(--muted)}
+ul.tight li{margin-bottom:8px}
+.toc{columns:2;font-size:.92rem}
+@media(max-width:760px){.toc{columns:1}}
+.toc a{text-decoration:none}
+footer{padding:30px 24px;color:var(--muted);border-top:1px solid var(--border);font-size:.85rem}
+code{background:#0a0f14;padding:2px 6px;border-radius:6px;font-size:.85em}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="badges"><span class="badge l1">L1: papers + meta-análisis</span><span class="badge rec">Actualizado: Sep 2026</span><span class="badge">N total acumulado: &gt;70.000 cerebros</span><span class="badge">Idioma: ES</span></div>
+<h1>¿Hay diferencias documentadas entre el cerebro de un macho y una hembra humanos?</h1>
+<p class="subtitle"><strong>Conclusión:</strong> sí, hay diferencias promedio pequeñas-moderadas, altamente replicables, con solapamiento masivo. Cerebro masculino ~11% más grande. Diferencias regionales persisten aun corrigiendo tamaño, pero explican ~1% de varianza. La única diferencia grande está en 2 núcleos hipotalámicos (INAH3, BSTc). No existen “cerebro rosa vs azul” como categorías discretas: lo típico es el mosaico.</p>
+<p class="small">Metodología: deep-research con tiers L1 (papers/meta), L2 (NIH, universidades), triangulación 2+ fuentes por claim. Sin citas inventadas. Sexo = macho/hembra biológico. Género = variable psicosocial correlacionada; la mayoría de estudios MRI no los separan.</p>
+</div>
+</header>
+
+<main class="wrap">
+
+<div class="card">
+<h2>Índice</h2>
+<div class="toc">
+1. <a href="#tamano">Tamaño global: el hecho más sólido</a><br>
+2. <a href="#regional">Diferencias regionales (corregidas por tamaño)</a><br>
+3. <a href="#tejido">Sustancia gris / blanca, grosor, área, varianza</a><br>
+4. <a href="#conect">Conectividad: ¿mujer más interhemisférica?</a><br>
+5. <a href="#cc">Cuerpo calloso: historia del mito</a><br>
+6. <a href="#hipo">Hipotálamo INAH3 y BSTc: la excepción grande</a><br>
+7. <a href="#func">Función, cognición y fMRI</a><br>
+8. <a href="#gen">Genes, hormonas y desarrollo</a><br>
+9. <a href="#mosaico">Mosaico vs dimorfismo + IA que clasifica sexo</a><br>
+10. <a href="#clinica">Implicaciones clínicas</a><br>
+11. <a href="#mitos">Tabla de mitos vs evidencia</a><br>
+12. <a href="#caveats">Riesgos, caveats y cómo leer estos estudios</a><br>
+13. <a href="#fuentes">Fuentes completas con tier y confianza</a>
+</div>
+</div>
+
+<div class="card" id="tamano">
+<h2>1. Tamaño global: el hecho más sólido</h2>
+<p>La diferencia más replicada en neuroanatomía humana:</p>
+<ul class="tight">
+<li><strong>Volumen intracraneal +12%, cerebro total +11%, cerebrum +10%, gris +9%, blanca +13%, LCR +11.5%, cerebelo +9%</strong> en hombres promedio vs mujeres. Rango 8-13% según compartimento.</li>
+<li>Presente desde nacimiento, se estabiliza ~11% en adultos, pico en adolescencia. Paralelo a diferencia de tamaño corporal.</li>
+<li><strong>Ruigrok et al. 2014:</strong> primer meta-análisis voxel-wise, 126 artículos 1990-2013, &gt;14.000 cerebros, edades 0-80a, sesgo a 18-59a. Gaussian-process regression.</li>
+<li><strong>Eliot et al. 2021 “Dump the dimorphism”:</strong> síntesis 3 décadas MRI + postmortem, confirma 11% y que ese tamaño explica otros hallazgos reproducibles: mayor ratio blanca/gris, conectividad intra vs inter, volúmenes regionales en machos.</li>
+</ul>
+<div class="callout">El tamaño lo condiciona todo. Cualquier estudio que no corrija por tamaño total (TIV/TBV) o por alometría está inflando diferencias sexuales. El gold standard es igualar pares por tamaño o usar covarianza alométrica, no simple ratio.</div>
+<p class="small">Fuentes: Ruigrok 2014 [L1 alta]; Eliot 2021 PMID:33621637 [L1 alta]; Cambridge summary Univ. Cambridge [L2].</p>
+</div>
+
+<div class="card" id="regional">
+<h2>2. Diferencias regionales independientes del tamaño</h2>
+<p>Controlando por tamaño total, persisten diferencias pequeñas-moderadas, reproducibles en HCP + UK Biobank + SHIP:</p>
+<div class="grid2">
+<div>
+<h3>Mujer &gt; Hombre (volumen relativo)</h3>
+<ul class="tight">
+<li>Corteza prefrontal medial y lateral, polo frontal (der. volumen, izq. densidad)</li>
+<li>Giros frontales inferior/medio, pars triangularis</li>
+<li>Cíngulo anterior, ínsula posterior/derecha, surco temporal superior</li>
+<li>Planum temporale / opérculo parietal, Heschl, tálamo bilateral, precuneus, occipital lateral</li>
+<li>Corteza orbitofrontal, parietal lateral</li>
+</ul>
+</div>
+<div>
+<h3>Hombre &gt; Mujer (volumen relativo)</h3>
+<ul class="tight">
+<li>Amígdala (izq. y der.), hipocampo, polo temporal bilateral</li>
+<li>Giros parahipocampales, cíngulo posterior, precuneus</li>
+<li>Putamen, claustrum izq., ínsula anterior, lóbulo VI cerebelo der.</li>
+<li>Giro fusiforme, corteza visual primaria, premotora, cerebelo</li>
+<li>Regiones temporales ventrales y occipitales</li>
+</ul>
+</div>
+</div>
+<ul class="tight">
+<li><strong>Lotze et al. 2019 Sci Rep n=2.838 (21-90a, mismo escáner) + 2 cohortes validación:</strong> confirma mapa Ruigrok con técnica state-of-art.</li>
+<li><strong>Ritchie et al. 2018 Cereb Cortex UK Biobank n=5.216 (2.750F/2.466M, 44-77a):</strong> diferencias subregionales no fully atribuibles a volumen total, área o altura.</li>
+<li><strong>NIH Liu/Raznahan 2025 HCP n=976 (22-35a) + UK Biobank replicación:</strong> 1.000 split-half estables. Patrón correlaciona con expresión de genes de cromosomas sexuales en corteza (1.317 muestras postmortem): a más expresión XY, más volumen relativo en machos.</li>
+<li><strong>Luders et al. 2009 J Neurosci n=96 igualados por tamaño:</strong> efecto sexo persiste sin efecto tamaño ni interacción → redistribución dependiente de sexo, no ajuste a tamaño.</li>
+<li>Magnitud cuando hay diferencia: sexo explica <strong>~1% varianza total</strong> (Eliot).</li>
+</ul>
+<p class="small">Links: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6368548">Lotze 2019 PMC6368548</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6041980">Ritchie 2018 PMC6041980</a> · <a href="https://www.nih.gov/news-events/news-releases/nih-study-shows-highly-reproducible-sex-differences-aspects-human-brain-anatomy">NIH 2025</a> · <a href="https://www.jneurosci.org/content/29/45/14265">Luders 2009</a> · <a href="https://link.springer.com/article/10.1186/s13293-022-00448-w">DeCasien roadmap 2022</a></p>
+</div>
+
+<div class="card" id="tejido">
+<h2>3. Tejido: gris, blanca, grosor, área, varianza</h2>
+<ul class="tight">
+<li><strong>Mujeres mayor % y concentración gris; hombres mayor % blanca y LCR</strong>, incluso corregido por volumen intracraneal. Gur et al. 1999 J Neurosci n=80 (18-45a): en hombres pendiente GM-WM paralela a volumen; en mujeres WM crece más lento con volumen craneal. Hombres asimétricos (GM izq. &gt; der.), mujeres simétricas.</li>
+<li><strong>Grosor cortical bruto mayor en mujeres; área superficial y volúmenes brutos mayores en hombres.</strong> UK Biobank: mismo patrón.</li>
+<li><strong>Microestructura blanca:</strong> hombres mayor anisotropía fraccional (FA); mujeres mayor complejidad/dispersión orientación (NODDI). Efecto máximo en corticoespinal derecho.</li>
+<li><strong>Mayor varianza masculina</strong> en medidas estructurales brutas (más extremos). Ajustada por tamaño se atenúa.</li>
+<li><strong>Alometría:</strong> 83% de medidas son alométricas; omitirla cambia varianza reportada. 67% de 629 medidas difieren por sexo (mediana |β|=.13): 37% M&gt;F, 30% F&gt;M. Wielenga 40k UKB.</li>
+</ul>
+<p class="small">Fuentes: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6782697">Gur 1999 PMC6782697</a> · Ritchie 2018 · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8410561">Normas UKB 40k PMC8410561</a></p>
+</div>
+
+<div class="card" id="conect">
+<h2>4. Conectividad: ¿la mujer comunica mejor los hemisferios?</h2>
+<p>Esta es tu pregunta. Respuesta corta: <strong>en promedio sí sale más interhemisférica en mujeres, pero es efecto tamaño cerebral, no diseño femenino.</strong></p>
+<ul class="tight">
+<li><strong>Ingalhalikar et al. 2014 PNAS n=949 (8-22a, 428M/521F) DTI:</strong> en toda región supratentorial machos &gt; intrahemisférica + modularidad/transitividad; hembras &gt; interhemisférica + participación cross-módulo. Cerebelo invertido. Efecto emerge en adolescencia. De ahí el titular.</li>
+<li><strong>Refutación Hänggi 2014:</strong> replica interacción sexo x tipo (F=18.1, p=0.00009, d intra M&gt;F 0.84) pero al igualar 27M/27F por tamaño (p=0.99) desaparece (F=0.008, p=0.93). Comparar cerebros pequeños vs grandes <em>dentro</em> del mismo sexo da el mismo patrón. Cerebros grandes vs pequeños: mismo efecto que hombre vs mujer.</li>
+<li><strong>Herting / Jahanshad 2017 NeuroImage 40H/40M:</strong> hombres mayor IntraHc, mujeres mayor ratio Inter/Intra, modulado por tamaño. El ratio predice habilidad verbal y espacial independiente de sexo y tamaño (bootstrap 1.000).</li>
+<li><strong>Funcional reposo (Ritchie UKB):</strong> 54% conexiones difieren. Hombres &gt; fuerza en sensorimotor unimodal; mujeres &gt; en default mode network (DMN). Stanford 2024 confirma DMN + estriado + límbico como hotspots sexuales.</li>
+<li><strong>Joel/Tarrasch 2014 carta PNAS:</strong> acusan mala presentación de Ingalhalikar; Ingalhalikar responde “misreading”. Debate abierto pero consenso actual favorece tamaño como driver principal estructural.</li>
+</ul>
+<div class="callout warn"><strong>Regla:</strong> cerebros pequeños necesitan proporcionalmente más fibras comisurales; cerebros grandes más intrahemisféricas por costo de cableado. Mujer promedio = cerebro más pequeño → más interhemisférica en promedio. Un hombre de cerebro pequeño y una mujer de cerebro grande se invierten.</div>
+<p class="small"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3896179">Ingalhalikar 2014 PMC3896179</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4227509">Hänggi refutación PMC4227509</a> · PubMed 28414185 · Ritchie 2018 Fig.5</p>
+</div>
+
+<div class="card" id="cc">
+<h2>5. Cuerpo calloso: anatomía del mito</h2>
+<ul class="tight">
+<li>1982 De Lacoste-Holloway n=14 postmortem: “relativo a tamaño, CC mayor en mujeres”. Se populariza como “mujeres menos lateralizadas”.</li>
+<li><strong>Bishop/Wahlsten 1997 meta 49 estudios post-1980:</strong> sin diferencia en tamaño/forma del esplenio, con o sin ANCOVA. “Creencia de esplenio mayor en mujeres y que piensan distinto es insostenible”. Culpa al ratio CC/cerebro que crea falso positivo porque denominador ya es dimórfico.</li>
+<li><strong>Driesen/Raz 1995 meta 43 estudios:</strong> CC absoluto y esplenio mayores en hombres; ajustado por tamaño mayor en mujeres (pequeño).</li>
+<li><strong>Smith 2005 meta 21 estudios:</strong> distingue “ratio” vs “control estadístico”: soporte a CC relativo mayor en mujeres por pocos %.</li>
+<li><strong>OASIS n=316 + Ardekani 37 pares igualados + Takeda 2017 VBM:</strong> CCA y genu mayores en mujeres tras controlar edad/tamaño (p&lt;0.03, p=0.0007). Genu el más dimórfico.</li>
+<li><strong>Eliot 2021:</strong> CC y comisura anterior comparables o ligeramente menores en hombres tras ajuste; única interhemisférica fiable distinta es <strong>massa intermedia / adhesión intertalámica</strong> (ausente en 2-22% sanos) — puente glial, no contribuye a comunicación funcional. Lateralización anatómica no sustenta menor conectividad en machos.</li>
+<li><strong>Desarrollo:</strong> grosor similar 5-6a, crecimiento posterior&gt;anterior, istmo cae 17-18a por poda lenguaje. Luders: en mujeres rotación mental correlaciona con calloso más grueso (esplenio, mid-posterior) — estrategia más interhemisférica para igual tarea; en hombres no.</li>
+</ul>
+<div class="callout myth"><strong>Mito a enterrar:</strong> “mujeres tienen cuerpo calloso más grande y por eso son más intuitivas / multitarea”. Realidad: en bruto es más grande en hombres; relativo sale 1-3% mayor en mujeres según método, con solapamiento total y sin vínculo causal a personalidad.</div>
+<p class="small"><a href="https://pubmed.ncbi.nlm.nih.gov/9353793">Bishop 1997 PMID:9353793</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3767965">OASIS PMC3767965</a> · <a href="https://www.nature.com/articles/srep39818">Takeda 2017 Sci Rep</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8843913">Meta handedness 2021 PMC8843913</a></p>
+</div>
+
+<div class="card" id="hipo">
+<h2>6. Hipotálamo INAH3 y BSTc: la única diferencia grande</h2>
+<table>
+<tr><th>Núcleo</th><th>Hallazgo</th><th>Tamaño efecto</th><th>Fuente</th></tr>
+<tr><td><strong>INAH3</strong> (núcleo intersticial hipotalámico anterior 3)</td><td>Hombres hetero &gt; mujeres; también &gt; hombres homo en LeVay. Más neuronas, no solo volumen. INAH1,2,4 sin diferencia consistente.</td><td>1.9x volumen (p&lt;.013), 2.3x neuronas (p&lt;.002); LeVay &gt;2x</td><td>LeVay 1991 Science; Allen/Gorski; Byne et al. 18H/20F estereología; Garcia-Falgueras/Swaab 2008 n=42</td></tr>
+<tr><td><strong>BSTc</strong> (núcleo cama estría terminal central)</td><td>Hombres &gt; mujeres en volumen y neuronas, pero diverge solo en adultez. Diferenciación sexual se extiende a adulto. En transexuales MtF tamaño tipo femenino, FtM tipo masculino, independiente de estrógenos adultos / castración.</td><td>Significativo solo adulto</td><td>Zhou 1995; Kruijver 2000; Chung et al. 2002 J Neurosci; Garcia-Falgueras 2008</td></tr>
+<tr><td><strong>SDN-POA, SCN, comisura anterior</strong></td><td>SDN 2x neuronas en hombres jóvenes, depende edad; SCN 2x en hombres homo vs hetero (Swaab). Comisura anterior mayor en homo en Allen/Gorski, no consistente.</td><td>Moderado-grande pero n pequeño</td><td>Swaab/Hofman 1988-95 review</td></tr>
+</table>
+<p class="small">Links: <a href="https://www.science.org/doi/10.1126/science.1887219">LeVay 1991</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18980961">Garcia-Falgueras 2008 PMID:18980961</a> · <a href="https://www.jneurosci.org/content/jneuro/22/3/1027.full.pdf">Chung 2002 PDF</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6758506">BSTc PMC6758506</a></p>
+<div class="callout">Estos núcleos regulan conducta sexual típica, identidad, termorregulación, parental. Son homólogos al SDN-POA rata masculinizado por pico testosterona. No extrapolar a “inteligencia” o “liderazgo”.</div>
+</div>
+
+<div class="card" id="func">
+<h2>7. Función, cognición y fMRI tarea</h2>
+<ul class="tight">
+<li><strong>Reposo:</strong> ver sección 4. DMN/estriado/límbico son hotspots sexuales y también loci de disfunción en autismo, TDAH, depresión, adicción, esquizofrenia, Parkinson — todos con sesgo por sexo.</li>
+<li><strong>Tarea verbal/espacial/emoción:</strong> fMRI tarea ha fallado en encontrar activación reproducible hombre vs mujer por alta tasa falso descubrimiento. Meta Stevens/Hamann emoción: inconsistencias.</li>
+<li><strong>Comportamiento:</strong> meta Hyde: mayoría diferencias psicológicas pequeñas-negligibles. Motor/espacial leve M&gt;F, memoria/social leve F&gt;M, con varianza intra &gt;&gt; inter.</li>
+<li><strong>Sustrato:</strong> GM = cómputo somatodendrítico, WM = transferencia mielínica. Mayor % gris en mujeres compensaría menor espacio intracraneal (Gur). Pendiente cognición-WM más empinada en mujeres.</li>
+<li><strong>Neuroquímica:</strong> diferencias dopaminérgicas, serotoninérgicas, GABAérgicas (Cosgrove review): cerebros neuroquímicamente distintos aun con anatomía similar.</li>
+</ul>
+</div>
+
+<div class="card" id="gen">
+<h2>8. Genes, hormonas y desarrollo</h2>
+<ul class="tight">
+<li><strong>Cromosomas:</strong> +Y → mayor tamaño total; +X → menor (aneuploidías). Efectos X/Y globalmente divergentes pero localmente convergentes en desarrollo cortical (Raznahan).</li>
+<li><strong>Hormonas:</strong> pico testosterona intrauterino masculiniza cerebro fetal; sin pico → femenino. Diferenciación genital mucho antes que cerebral → pueden disociarse. SDN crece igual hasta 2-4a, luego cae en niñas no en niños (Swaab) → ventana postnatal a ambiente/psicosocial.</li>
+<li><strong>Estrés real extremo</strong> cambia mosaico de forma sexo-dependiente (Shalev/Joel 2020).</li>
+<li><strong>Comparativa humano-ratón eLife 2024:</strong> sensoriales primarias alta congruencia sexo-genes; límbicas baja. Andrógenos correlacionan no-cortical, estrógeno/progesterona cortical.</li>
+<li><strong>Envejecimiento Szeged:</strong> cerebro masculino envejece más rápido, gris cae más.</li>
+</ul>
+</div>
+
+<div class="card" id="mosaico">
+<h2>9. Mosaico vs dimorfismo + IA que sí clasifica sexo</h2>
+<ul class="tight">
+<li><strong>Joel et al. 2015 PNAS n&gt;1.400, 4 datasets MRI:</strong> solapamiento extenso en toda gris/blanca/conexiones. Consistencia interna (todo-macho o todo-hembra) rara. Mayoría mosaicos únicos. “Aunque hay diferencias, no pertenecen a 2 categorías”.</li>
+<li><strong>Crítica Del Giudice et al. 2016, Chekroud 2016, Rosenblatt 2016 PNAS:</strong> método Joel extremo; con discriminante los mismos datos predicen sexo 69-77%, solapamiento multivariado 42% moderado. Cerebro mosaico pero con patrones predecibles.</li>
+<li><strong>Joel 2018 + 2020 Handbook:</strong> tipos típicos de mujeres también típicos de hombres y viceversa; difieren en frecuencia de mosaicos raros. Propone espacio multidimensional, no continuo macho-hembra.</li>
+<li><strong>Stanford stDNN Menon/Ryali 2024 PNAS n~1.500 20-35a rsfMRI dinámico:</strong> 90.2-91.2% CV, AUC .97-.98, generaliza 82% a 2 cohortes sin reentrenar. XAI → DMN/estriado/límbico. Modelos sexo-específicos predicen cognición solo en su sexo. Supera 62-87% previo.</li>
+<li><strong>SHIP volumen-igualado 2025 n=1.166:</strong> &gt;92% con regresión logística aun igual TIV; 85% en otra cohorte. TIV solo ya da 82.2% (umbral 1530ml).</li>
+<li><strong>Multimodal 290 adultos:</strong> GMV 94.3%, ReHo 90.7%, FC 83.9%, combinado 96.6%.</li>
+</ul>
+<div class="callout"><strong>Lectura correcta:</strong> clasificar con 90%+ no prueba dos tipos. Altura también clasifica sexo ~90% y nadie dice dos especies. Son distribuciones desplazadas con gran solapamiento, no picos separados — salvo INAH3/BSTc.</div>
+<p class="small"><a href="https://pubmed.ncbi.nlm.nih.gov/26621705">Joel 2015 PMID:26621705</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6204758">Joel 2018 PMC6204758</a> · <a href="https://www.pnas.org/doi/10.1073/pnas.2310012121">Ryali 2024 PNAS</a> · <a href="https://med.stanford.edu/news/all-news/2024/02/men-women-brain-organization-patterns.html">Stanford 2024</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12172721">Volumen-igualado 2025 PMC12172721</a></p>
+</div>
+
+<div class="card" id="clinica">
+<h2>10. Implicaciones clínicas</h2>
+<ul class="tight">
+<li>Prevalencia/edad/síntomas de trastornos difieren por sexo → buscar sustrato en amígdala/hipocampo/ínsula/DMN/límbico.</li>
+<li>Biomarcadores sexo-específicos en psiquiatría/neurología, medicina de precisión.</li>
+<li>Orientación/identidad: INAH3/BSTc feminizados en MtF, masculinizados en FtM, no por hormonas adultas → marcador de diferenciación temprana atípica, red compleja, no determinismo simple.</li>
+<li>Riesgo: usar promedios para decisiones individuales (educación, hiring) es mala ciencia.</li>
+</ul>
+</div>
+
+<div class="card" id="mitos">
+<h2>11. Tabla mitos vs evidencia</h2>
+<table>
+<tr><th>Mito popular</th><th>Evidencia</th><th>Veredicto</th></tr>
+<tr><td>Mujeres cuerpo calloso más grande → más intuitivas</td><td>Bruto mayor en hombres; relativo +1-3% en mujeres según método, solapamiento total</td><td>Falso / trivial</td></tr>
+<tr><td>Lenguaje en hombre izq., mujer bilateral → mujeres hablan mejor</td><td>fMRI tarea no replicable; diferencias verbales negligible</td><td>No probado</td></tr>
+<tr><td>Cerebro masculino sistema, femenino empatía (Baron-Cohen extremo)</td><td>Diferencias promedio pequeñas, mosaico domina, cognición predicha solo por features sexo-específicas no por sexo solo</td><td>Exagerado</td></tr>
+<tr><td>Hombres más neuronas 4% +100g → más inteligentes</td><td>Más neuronas pero también más LCR/blanca; mujeres más % gris/grosor; CI no difiere por sexo</td><td>Falso</td></tr>
+<tr><td>Estrés menor en hombre por cerebro</td><td>Sin base estructural directa; respuesta estrés sexo-dependiente pero psicosocial + hormonal</td><td>Sin evidencia</td></tr>
+<tr><td>Mujer mejor interhemisférica por diseño</td><td>Efecto tamaño cerebral, no sexo per se (Hänggi)</td><td>Parcialmente cierto en promedio, mal atribuido</td></tr>
+</table>
+</div>
+
+<div class="card" id="caveats">
+<h2>12. Riesgos, caveats y cómo leer estos estudios</h2>
+<ul class="tight">
+<li><strong>Método corrección tamaño:</strong> ratio crea falsos; ANCOVA/alo­metría correcto. Pregunta siempre cómo corrigieron.</li>
+<li><strong>n enorme, d pequeño:</strong> amígdala/putamen 1-3% difieren en pluralidad estudios, pero d pequeño. p&lt;.001 ≠ relevante.</li>
+<li><strong>Sesgos:</strong> 18-59 sobrerrepresentados, UKB 44-77, infantes raros; WEIRD; binario ignora intersex, ciclo, anticonceptivos, TH, género.</li>
+<li><strong>Publicación:</strong> historia de claims no replicados; pre-registro y split-half (NIH 2025, Stanford 2024) son el nuevo estándar.</li>
+<li><strong>Sexo vs género:</strong> Joel usa sex/gender fusionado porque MRI no separa biología de socialización. No atribuir todo a hormonas.</li>
+<li><strong>Neurosexismo:</strong> promedios grupales no predicen individuo. Clasificador 90% falla 1/10 y falla peor en poblaciones diversas y trans.</li>
+</ul>
+</div>
+
+<div class="card" id="fuentes">
+<h2>13. Fuentes completas (verificadas, sin inventos)</h2>
+<table>
+<tr><th>#</th><th>Cita</th><th>Tier / Año / Confianza</th><th>Link</th></tr>
+<tr><td>1</td><td>Ruigrok et al. A meta-analysis of sex differences in human brain structure. Neurosci Biobehav Rev 2014. 126 art., &gt;14k cerebros.</td><td><span class="tier t-L1">L1</span>2014 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3969295">PMC3969295</a></td></tr>
+<tr><td>2</td><td>Lotze et al. Novel findings from 2,838 adult brains on GMV. Sci Rep 2019.</td><td><span class="tier t-L1">L1</span>2019 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6368548">PMC6368548</a></td></tr>
+<tr><td>3</td><td>Ritchie et al. Sex differences in adult brain: 5,216 UK Biobank. Cereb Cortex 2018.</td><td><span class="tier t-L1">L1</span>2018 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6041980">PMC6041980</a></td></tr>
+<tr><td>4</td><td>Eliot et al. Dump the dimorphism. Neurosci Biobehav Rev 2021.</td><td><span class="tier t-L1">L1</span>2021 <span class="conf">alta</span></td><td><a href="https://pubmed.ncbi.nlm.nih.gov/33621637">PubMed 33621637</a></td></tr>
+<tr><td>5</td><td>DeCasien et al. Roadmap for careful analysis. Biol Sex Differ 2022.</td><td><span class="tier t-L1">L1</span>2022 <span class="conf">alta</span></td><td><a href="https://link.springer.com/article/10.1186/s13293-022-00448-w">Springer</a></td></tr>
+<tr><td>6</td><td>NIH Liu/Raznahan: highly reproducible sex differences + gene expression. HCP 976 + UKB. 2025.</td><td><span class="tier t-L2">L1-inst</span>2025 <span class="conf">alta</span></td><td><a href="https://www.nih.gov/news-events/news-releases/nih-study-shows-highly-reproducible-sex-differences-aspects-human-brain-anatomy">NIH</a></td></tr>
+<tr><td>7</td><td>Gur et al. Sex differences gray/white matter + cognition. J Neurosci 1999.</td><td><span class="tier t-L1">L1</span>1999 <span class="conf">media-alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6782697">PMC6782697</a></td></tr>
+<tr><td>8</td><td>Luders et al. Brain size independent GM differences. J Neurosci 2009.</td><td><span class="tier t-L1">L1</span>2009 <span class="conf">media-alta</span></td><td><a href="https://www.jneurosci.org/content/29/45/14265">JNeurosci</a></td></tr>
+<tr><td>9</td><td>Joel et al. Sex beyond genitalia: brain mosaic. PNAS 2015 n&gt;1400.</td><td><span class="tier t-L1">L1</span>2015 <span class="conf">alta</span></td><td><a href="https://pubmed.ncbi.nlm.nih.gov/26621705">PubMed</a> · <a href="https://www.pnas.org/doi/10.1073/pnas.1509654112">PNAS</a></td></tr>
+<tr><td>10</td><td>Joel et al. Brain types typical males also typical females. Front Hum Neurosci 2018.</td><td><span class="tier t-L1">L1</span>2018 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6204758">PMC6204758</a></td></tr>
+<tr><td>11</td><td>Del Giudice / Chekroud / Rosenblatt critique + Joel reply. PNAS 2016.</td><td><span class="tier t-L1">L1</span>2016 <span class="conf">alta</span></td><td><a href="https://www.pnas.org/doi/10.1073/pnas.1525534113">PNAS E1965</a></td></tr>
+<tr><td>12</td><td>Ryali/Menon et al. Deep learning replicable sex differences. PNAS 2024. &gt;90%.</td><td><span class="tier t-L1">L1</span>2024 <span class="conf">alta</span></td><td><a href="https://www.pnas.org/doi/10.1073/pnas.2310012121">PNAS</a> · <a href="https://med.stanford.edu/news/all-news/2024/02/men-women-brain-organization-patterns.html">Stanford</a></td></tr>
+<tr><td>13</td><td>Ingalhalikar et al. Structural connectome intra vs inter. PNAS 2014 n=949.</td><td><span class="tier t-L1">L1</span>2014 <span class="conf">media (refutado parcial)</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3896179">PMC3896179</a></td></tr>
+<tr><td>14</td><td>Hänggi et al. Hypothesis interconnectivity as function of brain size. Front Hum Neurosci 2014.</td><td><span class="tier t-L1">L1</span>2014 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4227509">PMC4227509</a></td></tr>
+<tr><td>15</td><td>Bishop/Wahlsten Sex differences CC myth or reality? Meta 49. 1997.</td><td><span class="tier t-L1">L1</span>1997 <span class="conf">alta</span></td><td><a href="https://pubmed.ncbi.nlm.nih.gov/9353793">PMID:9353793</a></td></tr>
+<tr><td>16</td><td>Ardekani/OASIS + Takeda CC larger women matched. + Smith 2005 meta.</td><td><span class="tier t-L1">L1</span>2005-2017 <span class="conf">media</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3767965">PMC3767965</a> · <a href="https://www.nature.com/articles/srep39818">SciRep</a></td></tr>
+<tr><td>17</td><td>LeVay 1991 INAH3 Science; Byne; Garcia-Falgueras/Swaab 2008 Brain INAH3 1.9x/2.3x.</td><td><span class="tier t-L1">L1</span>1991-2008 <span class="conf">media-alta</span></td><td><a href="https://www.science.org/doi/10.1126/science.1887219">Science</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18980961">PMID:18980961</a></td></tr>
+<tr><td>18</td><td>Chung et al. BSTc sexual differentiation extends to adulthood. J Neurosci 2002.</td><td><span class="tier t-L1">L1</span>2002 <span class="conf">media-alta</span></td><td><a href="https://www.jneurosci.org/content/jneuro/22/3/1027.full.pdf">PDF</a></td></tr>
+<tr><td>19</td><td>Classifying sex volume-matched &gt;92%. 2025 SHIP n=1166.</td><td><span class="tier t-L1">L1</span>2025 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12172721">PMC12172721</a></td></tr>
+<tr><td>20</td><td>Neuroanatomical norms UKB 40k allometry. Hum Brain Mapp.</td><td><span class="tier t-L1">L1</span>2021 <span class="conf">alta</span></td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8410561">PMC8410561</a></td></tr>
+</table>
+<p class="small">L1 = paper peer-review / meta oficial. L2 = NIH, universidad, review institucional. Confianza = replicabilidad + n + control tamaño. Ningún link inventado; todos verificados Sep 2026.</p>
+</div>
+
+<div class="card">
+<h2>Recomendación de uso</h2>
+<p>Si vas a citar en debate, tesis o video: cita <strong>Ritchie 2018 + Lotze 2019 + NIH 2025</strong> para “sí hay diferencias”, <strong>Joel 2015 + Eliot 2021</strong> para “pero son mosaico, no dimorfismo”, <strong>Hänggi 2014</strong> para desmontar “mujer más interhemisférica por diseño”, y <strong>LeVay/Garcia-Falgueras/Chung</strong> solo para hipotálamo. No uses el tamaño bruto para hablar de inteligencia.</p>
+<p class="small">Generado por Metis — investigación profunda con triangulación. No es consejo médico.</p>
+</div>
+
+</main>
+<footer>
+<div class="wrap">Archivo local: diferencias-cerebro-macho-hembra.html · Fuentes L1/L2 verificadas · Última síntesis Sep 2026 · Si quieres, pido PDFs y tabla con d de Cohen por región.</div>
+</footer>
+</body>
+</html>
